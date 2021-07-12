@@ -1,0 +1,36 @@
+.Button {
+  color: var(--black);
+  background-color: var(--color-main);
+  padding: 1.5rem 2rem;
+  border: none;
+  font-weight: 700;
+  font-size: 2rem;
+  width: 17rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  position: relative;
+  transform: skewX(-16deg);
+  transition: all 0.3s ease 2s;
+}
+
+.Button::before {
+  content: "";
+    position: absolute;
+    right: -13px;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    z-index: 1;
+    opacity: 1;
+    background-image: none;
+    bottom: 0;
+    border-radius: 0;
+    left: auto;
+    background-color: var(--color-main);
+}
+
+.Button:hover {
+  filter: brightness(20%);
+  background-color: var(--color-main-darker);
+
+}

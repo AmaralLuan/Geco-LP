@@ -1,0 +1,34 @@
+.HeaderMenu {
+  height: 100%;
+  width: 62%;
+}
+
+.HeaderMenu ul {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.HeaderMenu ul li {
+  list-style: none;
+  color: var(--white);
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 2rem;
+  transition: all .2s;
+  font-weight: 700;
+  line-height: 1px;
+}
+
+.HeaderMenu ul li:hover {
+  background-color: var(--color-main);
+  color: var(--black);
+}
+
+@media (max-width: 800px) {
+  .HeaderMenu ul{
+    display: none;
+  }
+}

@@ -1,0 +1,23 @@
+.LogoBox {
+  background-color: var(--color-main);
+  width: 18%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(0px 0px, 91% 0px, 100% 100%, 0% 100%);
+}
+
+.LogoBox img {
+  width: 12rem;
+}
+
+@media (max-width: 800px) {
+  .LogoBox {
+    width: 40%;
+  }
+
+  .LogoBox img {
+    width: 8rem;
+  }
+}
