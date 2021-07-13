@@ -5,6 +5,9 @@ import classes from './Releases.module.css';
 import zombie from '../../../assets/zombie.jpg'
 import ori from '../../../assets/ori.jpg'
 import cyberpunk from '../../../assets/cyberpunk.jpg'
+import ButtonArrow from '../../ButtonArrow/ButtonArrow';
+
+import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 const Realeases = () => {
   return (
@@ -16,8 +19,14 @@ const Realeases = () => {
             <h2>Create and <span>Manage</span></h2>
           </div>
 
-          <div>
+          <div className={classes.ButtonArrowBox}>
+            <ButtonArrow>
+              <AiOutlineLeft />
+            </ButtonArrow>
 
+            <ButtonArrow>
+              <AiOutlineRight />
+            </ButtonArrow>
           </div>
         </header>
 
@@ -45,7 +54,7 @@ const Realeases = () => {
         </main>
 
         <footer>
-
+          <h2>Watch Live <span>Matches</span></h2>
         </footer>
       </div>
     </section>
