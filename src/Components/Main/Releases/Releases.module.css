@@ -1,0 +1,42 @@
+.Releases {
+  height: 120rem;
+  background-image: url('../../../assets/home_four_area_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ReleasesContainer {
+  width: 90%;
+}
+
+.ReleasesContainer header {
+  display: flex;
+  justify-content: space-between;
+  margin: 8rem 0;
+}
+
+.ReleasesContainer header div span {
+  color: var(--color-main);
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.ReleasesContainer header div h2{
+  color: var(--white);
+  font-size: 5rem;
+}
+
+.ReleasesContainer header div h2 span {
+  font-size: 5rem;
+}
+
+.ReleasesContainer main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

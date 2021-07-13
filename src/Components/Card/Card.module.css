@@ -1,0 +1,35 @@
+.Card {
+  width: 36rem;
+  height: 50rem;
+  box-shadow: 0px 5px 12.09px 0.91px rgb(0 0 0 / 35%);
+}
+
+.CardHeader {
+  height: 80%;
+}
+
+.CardHeader img {
+  height: 100%;
+  width: 100%;
+}
+
+.CardFooter {
+  height: 20%;
+  padding: 2rem;
+  color: var(--white);
+  background-color: rgba(23, 13, 28, 0.929);;
+}
+
+.CardFooter h2 {
+  margin-bottom: 1rem;
+}
+
+.CardFooter p {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.CardFooter span {
+  color: var(--color-main);
+}
