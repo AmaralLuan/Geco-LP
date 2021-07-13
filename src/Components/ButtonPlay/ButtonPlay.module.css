@@ -1,0 +1,11 @@
+.ButtonPlay {
+  color: var(--color-main);
+  font-size: 6rem;
+  border: none;
+  background: none;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

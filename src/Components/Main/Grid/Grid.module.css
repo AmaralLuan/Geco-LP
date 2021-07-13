@@ -2,6 +2,8 @@
   width: 100%;
   padding: 6rem 0;
   background-image: url('../../../assets/s_brand_bg.jpg');
+  background-position: center;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;

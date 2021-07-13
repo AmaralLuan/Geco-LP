@@ -7,6 +7,7 @@ import ori from '../../../assets/ori.jpg'
 import liveMatch from '../../../assets/live_match.jpg';
 import cyberpunk from '../../../assets/cyberpunk.jpg'
 import ButtonArrow from '../../ButtonArrow/ButtonArrow';
+import ButtonPlay from '../../ButtonPlay/ButtonPlay';
 
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
@@ -59,6 +60,7 @@ const Realeases = () => {
 
           <div className={classes.VideoBox}>
             <a href='/'>
+              <ButtonPlay />
               <img src={liveMatch} alt='Live Matches' />
             </a>
           </div>

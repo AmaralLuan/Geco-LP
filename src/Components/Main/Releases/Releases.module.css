@@ -82,4 +82,12 @@
   align-items: center;
   justify-content: center;
   margin: 5rem 0;
+  position: relative;
+  border-radius: 4px;
+  
+}
+
+.VideoBox img {
+  border-radius: 4px;
+  box-shadow: 0px 9px 14px -6px rgba(0,0,0,0.75);
 }
