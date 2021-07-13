@@ -4,6 +4,7 @@ import classes from './Releases.module.css';
 
 import zombie from '../../../assets/zombie.jpg'
 import ori from '../../../assets/ori.jpg'
+import liveMatch from '../../../assets/live_match.jpg';
 import cyberpunk from '../../../assets/cyberpunk.jpg'
 import ButtonArrow from '../../ButtonArrow/ButtonArrow';
 
@@ -55,6 +56,12 @@ const Realeases = () => {
 
         <footer>
           <h2>Watch Live <span>Matches</span></h2>
+
+          <div className={classes.VideoBox}>
+            <a href='/'>
+              <img src={liveMatch} alt='Live Matches' />
+            </a>
+          </div>
         </footer>
       </div>
     </section>
