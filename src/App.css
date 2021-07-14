@@ -28,6 +28,7 @@ body,input, button, textarea {
 /*------- VARIABLES -------*/
 
 :root {
+  --grey: #90949c;
   --grey-dark: #343a40;
   --black: #000;
   --color-main: #ffc107;

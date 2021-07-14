@@ -1,4 +1,5 @@
 .Footer {
+  padding: 2rem;
   width: 100%;
   height: 40rem;
   background-image: url('../../assets/footer_bg.jpg');
@@ -11,10 +12,31 @@
 }
 
 .FooterGrid1 {
-  height: 80%;
+  height: 70%;
   width: 25%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .FooterGrid1 ul li {
+  color: var(--grey);
+  list-style: none;
+}
+
+.FooterGrid1 ul li img {
+  margin-bottom: 2rem;
+}
+
+.FooterGrid1 ul li div {
   display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.FooterGrid1 ul li p {
+  margin: 1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
 }

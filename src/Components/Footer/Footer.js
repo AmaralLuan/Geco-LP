@@ -7,31 +7,41 @@ const Footer = () => {
   return (
     <footer className={classes.Footer}>
       <div className={classes.FooterGrid1}>
-        <img src={Logo} alt='Logo' />
         <ul>
+
+          <li>
+            <img src={Logo} alt='Logo' />
+          </li>
+          
           <li>
             <p>Gemas marketplace the relase etras thats sheets continig passag.</p>
           </li>
 
           <li>
-            <MdLocationOn />
-            <p>
-              Address : PO Box W75 Street lan West new queens
-            </p>
+            <div>
+              <MdLocationOn />
+              <p>
+                Address : PO Box W75 Street lan West new queens
+              </p>
+            </div>  
           </li>
 
           <li>
-            <IoMailOpen />
-            <p>
-              Email : info@exemple.com
-            </p>
+            <div>
+              <IoMailOpen />
+              <p>
+                Email : info@exemple.com
+              </p>
+            </div>  
           </li>
 
           <li>
-            <FaPhone />
-            <p>
-              Phone : +24 1245 654 235
-            </p>
+            <div>
+              <FaPhone />
+              <p>
+                Phone : +24 1245 654 235
+              </p>
+            </div>  
           </li>
         </ul>
       </div>
