@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Grid from './Components/Main/Grid/Grid';
 import Home from './Components/Main/Home/Home';
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <Grid />
       <Realeases />
+      <Footer />
     </div>
   );
 }

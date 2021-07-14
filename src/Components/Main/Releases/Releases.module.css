@@ -1,5 +1,4 @@
 .Releases {
-  height: 120rem;
   background-image: url('../../../assets/home_four_area_bg.png');
   background-size: cover;
   background-position: center;
@@ -17,7 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8rem 0;
+  padding: 6rem 0;
 }
 
 .ReleasesContainer header div span {
@@ -48,7 +47,7 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-bottom: 8rem;
+  padding-bottom: 6rem;
 }
 
 .ReleasesContainer footer {
@@ -81,10 +80,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 5rem 0;
+  margin: 10rem 0;
   position: relative;
   border-radius: 4px;
-  
 }
 
 .VideoBox img {

@@ -1,0 +1,20 @@
+.Footer {
+  width: 100%;
+  height: 40rem;
+  background-image: url('../../assets/footer_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FooterGrid1 {
+  height: 80%;
+  width: 25%;
+}
+
+.FooterGrid1 ul li {
+  display: flex;
+}
