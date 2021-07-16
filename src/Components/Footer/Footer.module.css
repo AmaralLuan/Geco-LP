@@ -6,37 +6,52 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.FooterGrid1 {
+.Footer div {
   height: 70%;
-  width: 25%;
   padding: 1rem;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
 }
 
-.FooterGrid1 ul li {
+.Footer div ul li {
   color: var(--grey);
   list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.FooterGrid1 ul li img {
-  margin-bottom: 2rem;
+.Footer div ul li img {
+  width: 14rem;
+  margin: 2rem 0;
 }
 
-.FooterGrid1 ul li div {
+.Footer div ul li div {
   display: flex;
   align-items: center;
   font-size: 2rem;
 }
 
-.FooterGrid1 ul li p {
+.Footer div ul li p {
   margin: 1rem;
   font-size: 1.6rem;
   font-weight: 700;
+}
+
+.Footer div ul li h2 {
+  margin: 2rem 0;
+}
+
+.Footer div ul li h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    color: var(--color-main);
 }
