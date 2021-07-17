@@ -5,7 +5,7 @@ import Button from '../../Button/Button';
 
 function Home() {
   return (
-    <div className={classes.Home}>
+    <section className={classes.Home}>
       <div className={classes.heroBox}>
         <div className={classes.heroBoxText}>
             <h3>World Gaming</h3>
@@ -21,7 +21,7 @@ function Home() {
           <img src={heroImg} alt='hero-img' />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
