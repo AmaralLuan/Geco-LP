@@ -6,83 +6,78 @@ import { MdLocationOn, IoMailOpen, FaPhone } from 'react-icons/all';
 const Footer = () => {
   return (
     <footer className={classes.Footer}>
-      <div>
-          <ul>
-            <li>
-              <img src={Logo} alt='Logo' />
-            </li>
-            
-            <li>
-              <p>Gemas marketplace the relase etras thats sheets continig passag.</p>
-            </li>
+      <div className={classes.Container}>
+        <div className={classes.div1}>
+          <img src={Logo} alt='Logo' />
 
-            <li>
-              <div>
-                <MdLocationOn />
-                <p>
-                  Address : PO Box W75 Street lan West new queens
-                </p>
-              </div>  
-            </li>
+          <p>
+            <MdLocationOn />
+            <span>Address : PO Box W75St, queens</span>
+          </p>
 
-            <li>
-              <div>
-                <IoMailOpen />
-                <p>
-                  Email : info@exemple.com
-                </p>
-              </div>  
-            </li>
+          <p>
+            <IoMailOpen />
+            <span>Email : info@exemple.com</span>
+          </p>
 
-            <li>
-              <div>
-                <FaPhone />
-                <p>
-                  Phone : +24 1245 654 235
-                </p>
-              </div>  
-            </li>
-          </ul>
+          <p>
+            <FaPhone />
+            <span> Phone : +24 1245 654 235</span>
+          </p>
         </div>
 
-        <div>
-          <ul>
-            <li>
-              <h2>Products</h2>
-            </li>
-            
-            <li>
-              <p>Photos</p>
-            </li>
+        <div className={classes.div1}>
+          <h1>Products</h1>
 
-            <li>
-              <div>
-                
-                <p>
-                  Backgrounds
-                </p>
-              </div>  
-            </li>
+          <p>
+            Graphics
+          </p>
 
-            <li>
-              <div>
-                
-                <p>
-                  Fonts
-                </p>
-              </div>  
-            </li>
+          <p>
+            Backgrounds
+          </p>
 
-            <li>
-              <div>
-                
-                <p>
-                  Music
-                </p>
-              </div>  
-            </li>
-          </ul>
+          <p>
+            Fonts
+          </p>
         </div>
+
+        <div className={classes.div1}>
+          <h1>Need Help?</h1>
+
+          <p>
+            Terms and Conditions
+          </p>
+
+          <p>
+            Privacy Policy
+          </p>
+
+          <p>
+            Refund Policy
+          </p>
+        </div>
+
+        <div className={classes.div1}>
+          <h1>
+            Follow Us
+
+            <span>&nbsp;</span>
+          </h1>
+
+          <p>
+            Graphics
+          </p>
+
+          <p>
+            Backgrounds
+          </p>
+
+          <p>
+            Fonts
+          </p>
+        </div>
+      </div>
     </footer>
   )
 }

@@ -6,52 +6,50 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
 
-.Footer div {
-  height: 70%;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-.Footer div ul li {
-  color: var(--grey);
-  list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.Footer div ul li img {
-  width: 14rem;
-  margin: 2rem 0;
+.Container {
+  width: 90%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 3rem;
+  padding: 2rem;
 }
 
-.Footer div ul li div {
+.div1 {
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.div1 img {
+  width: 14rem;
+}
+
+.div1 h1 {
+  color: var(--color-main);
+}
+
+.div1 h1 span {
+    color: var(--white);
+    width: 30px;
+    height: 5px;
+}
+
+
+.div1 p {
+  color: var(--white);
+  font-size: 1.8rem;
   display: flex;
   align-items: center;
-  font-size: 2rem;
+  width: 100%;
 }
 
-.Footer div ul li p {
-  margin: 1rem;
-  font-size: 1.6rem;
-  font-weight: 700;
-}
-
-.Footer div ul li h2 {
-  margin: 2rem 0;
-}
-
-.Footer div ul li h2::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 30px;
-    height: 3px;
-    color: var(--color-main);
+.div1 p span {
+  margin-left: 1rem;
 }
