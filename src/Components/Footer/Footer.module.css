@@ -49,3 +49,30 @@
 .div1 p span {
   margin-left: 1rem;
 }
+
+@media (max-width: 800px) {
+  .Footer {
+    height: 140vh;
+  }
+
+  .Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 2rem;
+    width: 100%;
+  }
+
+  .div1 {
+    margin: 2rem 0;
+  }
+
+  .div1 img {
+    padding-bottom: 4rem;
+  }
+
+  .div1 p {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+  }
+}

@@ -33,3 +33,9 @@
 .CardFooter span {
   color: var(--color-main);
 }
+
+@media (max-width: 800px) {
+  .Card {
+    padding-top: 2rem;
+  }
+}

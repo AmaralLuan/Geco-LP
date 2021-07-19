@@ -49,3 +49,43 @@
 .heroBoxImg img {
   width: 90%;
 }
+
+@media (max-width: 800px) {
+  .Home {
+    height: 75vh;
+  }
+
+  .heroBox {
+    flex-direction: column;
+  }
+
+  .heroBoxText {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heroBoxText h3 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .heroBoxText h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  .heroBoxText p {
+    text-align: center;
+  }
+
+  .heroBoxText button {
+    margin: 2rem 5rem;
+  }
+
+  .heroBoxImg  {
+    display: none;
+  }
+
+}
