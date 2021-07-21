@@ -90,3 +90,23 @@
   box-shadow: 0px 9px 14px -6px rgba(0,0,0,0.75);
   width: 100%;
 }
+
+@media (max-width: 800px) {
+  .ReleasesContainer header {
+    flex-direction: column-reverse;
+    padding: 4rem 0;
+  }
+
+  .ReleasesContainer .ButtonArrowBox  {
+    padding: 2rem 0;
+  }
+
+  .ReleasesContainer div {
+    
+  }
+
+  .ReleasesContainer div h2 {
+    padding: 2rem 0;
+    text-align: center;
+  }
+}
